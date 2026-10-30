@@ -1,67 +1,78 @@
-#  Pong Game — Python
+# Pong — Python Game
 
-A simple classic **Pong game** built with **Python** and **Pygame**.
-The game recreates the classic two-player table-tennis style gameplay where players control paddles and try to score points by getting the ball past their opponent.
+A simple two-player Pong-style game built with Python and Pygame. Each player controls a paddle and tries to send the ball past the other player's paddle.
 
-##  Features
+## Features
 
-* Two-player gameplay
-* Keyboard paddle controls
-* Ball movement and collision detection
-* Score tracking
-* Simple game interface
-* Increasing gameplay challenge
-* Restartable game
-* Built with Python and Pygame
+- Two-player keyboard controls
+- Paddle and ball movement
+- Ball collision handling
+- Score display
+- A basic game interface
 
-##  Technologies Used
+The exact game behaviour depends on the current source code in this repository.
 
-* **Python 3**
-* **Pygame**
+## Technology
 
-##  Project Structure
+- Python 3
+- Pygame
 
-```text
-pong/
-│
-├── main.py
-├── README.md
-└── requirements.txt
-```
+## Requirements
 
-##  Installation
-
-### 1. Check Python
-
-Open Terminal and run:
+Install Python 3, then install Pygame:
 
 ```bash
-python3 --version
+python -m pip install pygame
 ```
 
-### 2. Install Pygame
+If your system uses `python3`, use:
 
 ```bash
 python3 -m pip install pygame
 ```
 
-### 3. Open the project folder
+## Run the game
+
+1. Clone the repository:
 
 ```bash
-cd path/to/pong
+git clone https://github.com/eDDie-05/pong.git
 ```
 
-### 4. Run the game
+2. Open the project folder:
 
 ```bash
-python3 main.py
+cd pong
 ```
 
-##  Controls
+3. Install Pygame if it is not already installed.
+4. Start the game:
 
-| Player   | Move Up | Move Down |
-| -------- | ------- | --------- |
-| Player 1 | `W`     | `S`       |
-| Player 2 | `↑`     | `↓`       |
+```bash
+python main.py
+```
 
-#eDDie#
+Use `python3 main.py` if required by your system.
+
+## Controls
+
+| Player | Move up | Move down |
+| --- | --- | --- |
+| Player 1 | `W` | `S` |
+| Player 2 | `Up Arrow` | `Down Arrow` |
+
+## What this project demonstrates
+
+- Handling keyboard input
+- Updating objects inside a game loop
+- Moving a ball and paddles
+- Detecting collisions
+- Tracking and displaying a score
+
+## Project status
+
+This is a small game-development project. Review the source files for the exact features available in the current version.
+
+## Author
+
+**eDDie**
